@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pac-Man con Kontra.js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div id="hud">PUNTOS: 0 | VIDAS: 3</div>
+      <!-- El tamaño del canvas coincide con nuestra cuadrícula: 15 columnas x 15 filas de 32px -->
+      <canvas id="gameCanvas" width="480" height="480"></canvas>
+    </div>
+
+    <!-- Carga de Kontra.js sin bundlers -->
+    <script src="https://unpkg.com/kontra@10.0.2/kontra.min.js"></script>
+    <script src="game02.js"></script>
+  </body>
+</html>
