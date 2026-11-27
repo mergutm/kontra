@@ -49,3 +49,17 @@ function drawMap() {
     }
   }
 }
+
+
+
+
+const loop = GameLoop({
+  update() {
+    // lógica del juego
+  },
+  render() {
+    drawMap();
+  }
+});
+
+loop.start();
