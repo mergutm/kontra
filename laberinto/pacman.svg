@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Frame 1 -->
+  <g class="frame">
+    <path fill="red" d="M50 8 C28 8 15 25 15 48 L15 82 L25 72 L35 82 L45 72 L55 82 L65 72 L75 82 L85 72 L85 48 C85 25 72 8 50 8 Z"/>
+    <ellipse cx="38" cy="42" rx="9" ry="11" fill="#fff"/>
+    <ellipse cx="62" cy="42" rx="9" ry="11" fill="#fff"/>
+    <circle cx="40" cy="44" r="5" fill="#2438ff"/>
+    <circle cx="64" cy="44" r="5" fill="#2438ff"/>
+  </g>
+
+  <!-- Frame 2, 3, 4 - same ghost, just shifted a bit -->
+  <g class="frame" style="display:none">
+    <g transform="translate(0,3)">
+      <!-- copy the same path + eyes here, with the wave moved down -->
+    </g>
+  </g>
+
+  <g class="frame" style="display:none"><!-- frame 3 --></g>
+  <g class="frame" style="display:none"><!-- frame 4 --></g>
+</svg>
